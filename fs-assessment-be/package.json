@@ -1,0 +1,25 @@
+{
+  "name": "fs-assessment-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest"
+  },
+  "author": "toi.nguyenvan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.8.5",
+    "jest": "^29.7.0",
+    "nock": "^13.5.5",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  }
+}
